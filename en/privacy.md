@@ -72,6 +72,8 @@ To provide the Service, data is shared only with the following providers and onl
 
 5.2. Data may be disclosed to competent public authorities on request where the law requires.
 
+5.3. The user consents to the transfer of data to the foreign providers listed in section 5 (cross-border transfer).
+
 ## 6. Retention
 
 | Data | Retention |

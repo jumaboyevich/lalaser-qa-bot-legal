@@ -72,6 +72,8 @@ Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, f
 
 5.2. Ma'lumotlar qonunda belgilangan hollarda vakolatli davlat organlarining so'roviga binoan berilishi mumkin.
 
+5.3. Foydalanuvchi ma'lumotlar 5-bo'limda ko'rsatilgan xorijiy xizmat ko'rsatuvchilarga uzatilishiga (transchegaraviy uzatish) rozilik beradi.
+
 ## 6. Saqlash muddatlari
 
 | Ma'lumot | Qancha saqlanadi |
