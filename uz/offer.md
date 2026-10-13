@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Ommaviy oferta
 
-**Tahrir:** 1.1 · **Kuchga kirgan sana:** 13.10.2026
+**Tahrir:** 1.2 · **Kuchga kirgan sana:** 13.10.2026
 
 [Русский](../ru/offer.md) · [English](../en/offer.md)
 
@@ -14,6 +14,9 @@
 - **Paket** — oldindan to'lanadigan, belgilangan miqdordagi tahlillar to'plami.
 - **Balans** — Buyurtmachi akkauntidagi ishlatilmagan tahlillar qoldig'i.
 - **Akkaunt** — Buyurtmachining Botdagi hisobi. Unga bitta yoki bir nechta filial bog'lanadi.
+- **Ega** — Akkauntni Buyurtmachi nomidan boshqaradigan foydalanuvchi: barcha filiallar, balans, to'lovlar va jamoa.
+- **Menejer** — Ega taklifi bilan Akkauntga qo'shilgan va o'ziga biriktirilgan filial(lar)da ishlaydigan foydalanuvchi.
+- **Jamoa** — Akkauntning Egalari va menejerlari.
 
 ## 2. Shartnoma predmeti va aksept
 
@@ -73,19 +76,40 @@ Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to
 
 5.4. Tahlil boshlanganda balansdan 1 ta tahlil (60 daqiqadan uzun audio uchun 2 ta) bron qilinadi va tahlil muvaffaqiyatli tugaganda yechiladi. **Texnik xato sababli tahlil bajarilmasa, bron avtomatik qaytariladi.**
 
-5.5. Bir akkauntning balansi uning barcha filiallari uchun umumiy.
+5.5. Bir akkauntning balansi uning barcha filiallari va jamoa a'zolari uchun umumiy.
 
 5.6. Ishlatilmagan pullik tahlillar uchun pul faqat Ijrochi aybi bilan Xizmat 3 kundan ortiq ko'rsatilmagan hollarda, qolgan tahlillar soniga mutanosib ravishda qaytariladi. Boshqa hollarda to'langan mablag' qaytarilmaydi.
 
 5.7. Xizmat ko'rsatilganini Botdagi tahlillar va to'lovlar tarixi tasdiqlaydi.
 
-## 6. Tomonlarning huquq va majburiyatlari
+## 6. Jamoa: egalar va menejerlar
+
+6.1. Akkauntda bir yoki bir nechta Ega va menejerlar bo'lishi mumkin. Ega barcha filiallarni, balans va to'lovlarni hamda jamoani boshqaradi. Menejer faqat o'ziga biriktirilgan filiallarda ishlaydi: audio yuboradi, xodimlarni boshqaradi, reyting va hisobotlarni ko'radi hamda umumiy balansni to'ldirishi mumkin.
+
+6.2. Bitta filialda bitta menejer bo'ladi; bitta menejer bir nechta filialni boshqarishi mumkin.
+
+6.3. Jamoa a'zolari uchun alohida to'lov olinmaydi. Barcha tahlillar Akkauntning umumiy balansidan yechiladi.
+
+6.4. Ega jamoa a'zolarini Botda yaratilgan bir martalik taklif havolasi orqali qo'shadi va istalgan vaqtda olib tashlaydi. Havola ma'lum muddat amal qiladi va uni ishlatilguncha bekor qilish mumkin. Ega havolani faqat vakolatli shaxslarga beradi.
+
+6.5. Har bir jamoa a'zosi Botdan foydalanishdan oldin ushbu ofertani va Maxfiylik siyosatini o'zi qabul qiladi. Menejer ofertani Buyurtmachi vakili sifatida qabul qiladi; shartnoma tarafi Buyurtmachi bo'lib qoladi.
+
+6.6. Ega boshqa shaxsni Ega sifatida taklif qilishi mumkin. Taklif qabul qilingach, yangi Ega to'lovlar, balans tarixi va jamoani boshqarish huquqini oladi. Taklif qilgan shaxs, uning tanloviga ko'ra, Ega bo'lib qoladi yoki tanlangan filiallarda menejer bo'ladi.
+
+6.7. O'z Akkaunti bo'lgan va uning yagona Egasi bo'lgan shaxs boshqa Akkauntga taklifni qabul qilsa, uning Akkaunti taklif qilgan Akkauntga qo'shiladi (birlashtirish). Bunda filiallar, xodimlar, tahlillar tarixi, ulangan guruhlar va kutilayotgan to'lovlar ko'chadi; ishlatilmagan tahlillar umumiy balansga qo'shiladi va ikki muddatdan kechrog'i amal qiladi. Birlashtirish Botda ikki marta tasdiqlanadi va qaytarilmaydi. Ilgari olingan bonuslar qayta berilmaydi.
+
+6.8. Akkauntida boshqa Egalar ham bo'lsa, birlashtirishni faqat Ijrochi barcha Egalarning roziligini olgandan keyin amalga oshiradi. Taklifni o'zi yakunlay olmagan foydalanuvchi Botdagi "Admindan yordam so'rash" tugmasi orqali Ijrochiga murojaat qiladi.
+
+6.9. Boshqa Akkauntda menejer bo'lgan shaxs taklifni qabul qilsa, oldingi Akkauntdan chiqadi. Menejer olib tashlangan yoki almashtirilgan hollarda u yuborgan tahlillar tarixi filialda qoladi, sarflangan tahlillar qaytarilmaydi.
+
+## 7. Tomonlarning huquq va majburiyatlari
 
 **Buyurtmachi:**
 
 - mijozlar va xodimlarni suhbat yozib olinishi va tahlil qilinishi haqida oldindan xabardor qiladi va ularning roziligini oladi;
 - faqat studiya faoliyatiga oid suhbatlarni yuboradi;
 - akkauntga kirish huquqini faqat vakolatli xodimlarga beradi;
+- jamoa a'zolarining Botdagi harakatlari uchun javob beradi va vakolatini yo'qotgan a'zolarni o'z vaqtida olib tashlaydi;
 - Xizmatdan qonunga zid maqsadlarda foydalanmaydi.
 
 **Ijrochi:**
@@ -96,29 +120,29 @@ Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to
 
 **Ijrochining huquqi:** shartlar buzilganda, jumladan rozilik olinmagan yoki noqonuniy yozuvlar yuborilganda, akkauntni ogohlantirishsiz to'xtatib qo'yish.
 
-## 7. Javobgarlik va fors-major
+## 8. Javobgarlik va fors-major
 
-7.1. Ijrochining javobgarligi har qanday holatda Buyurtmachi oxirgi 30 kun ichida to'lagan summa bilan cheklanadi.
+8.1. Ijrochining javobgarligi har qanday holatda Buyurtmachi oxirgi 30 kun ichida to'lagan summa bilan cheklanadi.
 
-7.2. Ijrochi tahlil natijalari asosida Buyurtmachi qabul qilgan qarorlar va ularning oqibatlari uchun javob bermaydi.
+8.2. Ijrochi tahlil natijalari asosida Buyurtmachi qabul qilgan qarorlar va ularning oqibatlari uchun javob bermaydi.
 
-7.3. Mijozlar va xodimlardan rozilik olinmaganligi bilan bog'liq barcha da'volar bo'yicha javobgarlik Buyurtmachi zimmasida.
+8.3. Mijozlar va xodimlardan rozilik olinmaganligi bilan bog'liq barcha da'volar bo'yicha javobgarlik Buyurtmachi zimmasida.
 
-7.4. Tomonlar fors-major holatlari (tabiiy ofatlar, davlat organlarining qarorlari, internet yoki uchinchi shaxs xizmatlarining keng ko'lamli uzilishlari) sababli majburiyatlarni bajarmaganlik uchun javobgar emas.
+8.4. Tomonlar fors-major holatlari (tabiiy ofatlar, davlat organlarining qarorlari, internet yoki uchinchi shaxs xizmatlarining keng ko'lamli uzilishlari) sababli majburiyatlarni bajarmaganlik uchun javobgar emas.
 
-## 8. Amal qilish muddati, o'zgartirish va nizolar
+## 9. Amal qilish muddati, o'zgartirish va nizolar
 
-8.1. Shartnoma aksept paytidan boshlab muddatsiz amal qiladi.
+9.1. Shartnoma aksept paytidan boshlab muddatsiz amal qiladi.
 
-8.2. Buyurtmachi istalgan vaqtda akkauntni o'chirishni so'rab, shartnomani bekor qilishi mumkin. Bunda ishlatilmagan tahlillar 5.6-bandga muvofiq hal qilinadi.
+9.2. Buyurtmachi istalgan vaqtda akkauntni o'chirishni so'rab, shartnomani bekor qilishi mumkin. Bunda ishlatilmagan tahlillar 5.6-bandga muvofiq hal qilinadi. Akkauntni o'chirishni faqat Ega so'rashi mumkin.
 
-8.3. Ijrochi ofertani o'zgartirishi mumkin. Yangi tahrir e'lon qilingan kundan kuchga kiradi. Muhim o'zgarishlarda Bot Buyurtmachidan qayta rozilik so'raydi.
+9.3. Ijrochi ofertani o'zgartirishi mumkin. Yangi tahrir e'lon qilingan kundan kuchga kiradi. Muhim o'zgarishlarda Bot Buyurtmachidan qayta rozilik so'raydi.
 
-8.4. Nizolar muzokaralar yo'li bilan hal qilinadi. Kelishuvga erishilmasa, nizo O'zbekiston Respublikasi qonunchiligiga muvofiq vakolatli sudda ko'rib chiqiladi.
+9.4. Nizolar muzokaralar yo'li bilan hal qilinadi. Kelishuvga erishilmasa, nizo O'zbekiston Respublikasi qonunchiligiga muvofiq vakolatli sudda ko'rib chiqiladi.
 
-8.5. Oferta o'zbek, rus va ingliz tillarida e'lon qilinadi. Matnlar o'rtasida farq bo'lsa, o'zbek tilidagi matn ustun turadi.
+9.5. Oferta o'zbek, rus va ingliz tillarida e'lon qilinadi. Matnlar o'rtasida farq bo'lsa, o'zbek tilidagi matn ustun turadi.
 
-## 9. Ijrochi ma'lumotlari
+## 10. Ijrochi ma'lumotlari
 
 | | |
 | --- | --- |

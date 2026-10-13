@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Maxfiylik siyosati
 
-**Tahrir:** 1.0 · **Kuchga kirgan sana:** 13.10.2026
+**Tahrir:** 1.1 · **Kuchga kirgan sana:** 13.10.2026
 
 [Русский](../ru/privacy.md) · [English](../en/privacy.md)
 
@@ -57,6 +57,12 @@ Ma'lumotlarga faqat quyidagi maqsadlarda ishlov beriladi:
 
 4.3. Ijrochi rozilik olinganligini tekshirmaydi. Rozilik olinmaganligi uchun javobgarlik studiya zimmasida.
 
+4.4. Studiya ma'lumotlarini uning jamoasi ko'radi: Ega — barcha filiallarni, menejer — faqat o'ziga biriktirilgan filiallarni. Jamoa ro'yxatida a'zolarning Telegram ismi va username'i ko'rsatiladi.
+
+4.5. Studiya Egasi o'z akkauntini boshqa studiyaga qo'shganda (Ommaviy ofertaning 6.7-bandi), u ma'lumotlar egasi sifatida filiallar, xodimlar ro'yxati va tahlil hisobotlarini o'sha studiyaga topshiradi; ularni endi o'sha studiyaning jamoasi ko'radi.
+
+4.6. Foydalanuvchi taklif bo'yicha yordam so'raganda, Ijrochi murojaatni hal qilish uchun taklif ma'lumotlarini (studiya, rol, filiallar, foydalanuvchi akkaunti) ko'radi.
+
 ## 5. Uchinchi shaxslarga uzatish
 
 Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, faqat zarur hajmda uzatiladi:
@@ -88,7 +94,7 @@ Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, f
 
 ## 7. Himoya choralari
 
-- har bir studiya faqat o'z filiallari, xodimlari va hisobotlarini ko'radi; har bir so'rovda kirish huquqi tekshiriladi;
+- har bir studiya faqat o'z filiallari, xodimlari va hisobotlarini ko'radi, menejer esa faqat o'ziga biriktirilgan filiallarni; har bir so'rovda kirish huquqi tekshiriladi;
 - ma'lumotlar bazasiga faqat Ijrochi kira oladi;
 - ma'lumotlar shifrlangan kanallar (HTTPS/TLS) orqali uzatiladi;
 - foydalanuvchilarga xato tafsilotlari ko'rsatilmaydi, faqat murojaat ID'si beriladi;

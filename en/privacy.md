@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Privacy Policy
 
-**Edition:** 1.0 · **Effective date:** 13.10.2026
+**Edition:** 1.1 · **Effective date:** 13.10.2026
 
 [O'zbekcha](../uz/privacy.md) · [Русский](../ru/privacy.md)
 
@@ -57,6 +57,12 @@ Data is processed only to:
 
 4.3. The Provider does not verify consent. The studio is responsible if consent is missing.
 
+4.4. A studio's data is seen by its team: an Owner sees all branches, a manager only the branches assigned to them. The team list shows members' Telegram names and usernames.
+
+4.5. When a studio's Owner joins their account to another studio (clause 6.7 of the Public offer), they, as the data owner, hand the branches, the employee list and the analysis reports over to that studio; from then on that studio's team sees them.
+
+4.6. When a user asks for help with an invitation, the Provider sees the invitation details (studio, role, branches, the user's account) to resolve the request.
+
 ## 5. Sharing with third parties
 
 To provide the Service, data is shared only with the following providers and only as far as necessary:
@@ -88,7 +94,7 @@ To provide the Service, data is shared only with the following providers and onl
 
 ## 7. Security
 
-- each studio sees only its own branches, employees and reports; access rights are checked on every request;
+- each studio sees only its own branches, employees and reports, and a manager only the branches assigned to them; access rights are checked on every request;
 - only the Provider has access to the database;
 - data is transferred over encrypted channels (HTTPS/TLS);
 - users are never shown error details, only a request ID;
