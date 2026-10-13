@@ -5,4 +5,4 @@
 | Public offer | [Ommaviy oferta](uz/offer.md) | [Публичная оферта](ru/offer.md) | [Public offer](en/offer.md) |
 | Privacy policy | [Maxfiylik siyosati](uz/privacy.md) | [Политика конфиденциальности](ru/privacy.md) | [Privacy policy](en/privacy.md) |
 
-Edition 1.0. The Uzbek text prevails if the versions differ.
+Offer edition 1.1, privacy policy edition 1.0. The Uzbek text prevails if the versions differ.

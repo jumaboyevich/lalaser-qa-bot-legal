@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Ommaviy oferta
 
-**Tahrir:** 1.0 · **Kuchga kirgan sana:** 13.10.2026
+**Tahrir:** 1.1 · **Kuchga kirgan sana:** 13.10.2026
 
 [Русский](../ru/offer.md) · [English](../en/offer.md)
 
@@ -39,11 +39,13 @@
 
 4.1. Amaldagi paketlar. Ijrochi QQS to'lovchisi emas, narxlarga QQS kiritilmagan.
 
-| Paket | Tahlillar soni | Narxi | 1 ta tahlil narxi |
-| --- | --- | --- | --- |
-| Start | 10 | 49 000 so'm | 4 900 so'm |
-| Studio | 30 | 129 000 so'm | 4 300 so'm |
-| Pro | 100 | 390 000 so'm | 3 900 so'm |
+| Paket | Tahlillar soni | Narxi | 1 ta tahlil narxi | Maxsus taklif narxi (31.10.2026 gacha) |
+| --- | --- | --- | --- | --- |
+| Start | 10 | 89 000 so'm | 8 900 so'm | 49 000 so'm |
+| Studio | 30 | 239 000 so'm | ≈ 7 970 so'm | 129 000 so'm |
+| Pro | 100 | 690 000 so'm | 6 900 so'm | 390 000 so'm |
+
+Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to'lov ko'rsatmasi olingan paketlarga qo'llaniladi. Shundan keyin jadvaldagi asosiy narxlar amal qiladi.
 
 4.2. Har bir paket to'lov tasdiqlangan kundan boshlab **30 kalendar kun** amal qiladi. Muddat tugaganda ishlatilmagan tahlillar bekor bo'ladi.
 

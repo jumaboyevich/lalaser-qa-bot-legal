@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Public Offer
 
-**Edition:** 1.0 · **Effective date:** 13.10.2026
+**Edition:** 1.1 · **Effective date:** 13.10.2026
 
 [O'zbekcha](../uz/offer.md) · [Русский](../ru/offer.md)
 
@@ -39,11 +39,13 @@
 
 4.1. Current packages. The Provider is not a VAT payer; prices do not include VAT.
 
-| Package | Analyses | Price | Price per analysis |
-| --- | --- | --- | --- |
-| Start | 10 | 49,000 UZS | 4,900 UZS |
-| Studio | 30 | 129,000 UZS | 4,300 UZS |
-| Pro | 100 | 390,000 UZS | 3,900 UZS |
+| Package | Analyses | Price | Price per analysis | Special offer price (until 31.10.2026) |
+| --- | --- | --- | --- | --- |
+| Start | 10 | 89,000 UZS | 8,900 UZS | 49,000 UZS |
+| Studio | 30 | 239,000 UZS | ≈ 7,970 UZS | 129,000 UZS |
+| Pro | 100 | 690,000 UZS | 6,900 UZS | 390,000 UZS |
+
+The special offer applies to packages whose payment instructions were received in the Bot by 23:59 on 31 October 2026 (Tashkent time). After that, the regular prices in the table apply.
 
 4.2. Each package is valid for **30 calendar days** from the day the payment is confirmed. Unused analyses expire at the end of this period.
 
