@@ -61,18 +61,16 @@ Data is processed only to:
 
 To provide the Service, data is shared only with the following providers and only as far as necessary:
 
-| Provider | Purpose | Data | Location |
-| --- | --- | --- | --- |
-| Telegram | Messaging through the bot | Messages, files | Abroad |
-| Google (Gemini API, paid tier) | AI analysis of audio | Audio recording, analysis rules | Abroad |
-| Railway (cloud hosting) | Hosting the bot and the database | Data in section 2 (except audio) | Abroad |
-| Payment provider (once connected) | Accepting payments | Amount, payment ID | Uzbekistan |
+| Provider | Purpose | Data |
+| --- | --- | --- |
+| Telegram | Messaging through the bot | Messages, files |
+| Google (Gemini API, paid tier) | AI analysis of audio | Audio recording, analysis rules |
+| Railway (cloud hosting) | Hosting the bot and the database | Data in section 2 (except audio) |
+| Payment provider (once connected) | Accepting payments | Amount, payment ID |
 
 5.1. An audio file sent for analysis is deleted from Google's servers as soon as the analysis ends. The Provider uses Google's paid API tier, under whose terms Google does not use submitted data to train its models.
 
 5.2. Data may be disclosed to competent public authorities on request where the law requires.
-
-5.3. The user consents to the transfer of data to the foreign providers listed in section 5 (cross-border transfer).
 
 ## 6. Retention
 

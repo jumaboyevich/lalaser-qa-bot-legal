@@ -61,18 +61,16 @@ Ma'lumotlarga faqat quyidagi maqsadlarda ishlov beriladi:
 
 Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, faqat zarur hajmda uzatiladi:
 
-| Xizmat ko'rsatuvchi | Nima uchun | Qanday ma'lumot | Joylashuvi |
-| --- | --- | --- | --- |
-| Telegram | Bot orqali xabar almashish | Xabarlar, fayllar | Xorij |
-| Google (Gemini API, pullik tarif) | Audioni sun'iy intellekt yordamida tahlil qilish | Audio yozuv, tahlil qoidalari | Xorij |
-| Railway (bulutli hosting) | Bot va ma'lumotlar bazasini joylashtirish | 2-bo'limdagi ma'lumotlar (audiodan tashqari) | Xorij |
-| To'lov provayderi (ulanganda) | To'lovlarni qabul qilish | Summa, to'lov ID | O'zbekiston |
+| Xizmat ko'rsatuvchi | Nima uchun | Qanday ma'lumot |
+| --- | --- | --- |
+| Telegram | Bot orqali xabar almashish | Xabarlar, fayllar |
+| Google (Gemini API, pullik tarif) | Audioni sun'iy intellekt yordamida tahlil qilish | Audio yozuv, tahlil qoidalari |
+| Railway (bulutli hosting) | Bot va ma'lumotlar bazasini joylashtirish | 2-bo'limdagi ma'lumotlar (audiodan tashqari) |
+| To'lov provayderi (ulanganda) | To'lovlarni qabul qilish | Summa, to'lov ID |
 
 5.1. Tahlil uchun yuborilgan audio fayl tahlil tugashi bilan Google serveridan o'chiriladi. Ijrochi Google'ning pullik API tarifidan foydalanadi; bu tarif shartlariga ko'ra Google yuborilgan ma'lumotlardan o'z modellarini o'qitish uchun foydalanmaydi.
 
 5.2. Ma'lumotlar qonunda belgilangan hollarda vakolatli davlat organlarining so'roviga binoan berilishi mumkin.
-
-5.3. Foydalanuvchi ma'lumotlar 5-bo'limda ko'rsatilgan xorijiy xizmat ko'rsatuvchilarga uzatilishiga (transchegaraviy uzatish) rozilik beradi.
 
 ## 6. Saqlash muddatlari
 

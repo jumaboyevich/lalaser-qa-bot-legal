@@ -112,7 +112,7 @@
 
 8.3. The Provider may change this offer. A new edition takes effect on the day it is published. For significant changes the Bot asks the Customer to accept again.
 
-8.4. Disputes are settled by negotiation. Failing agreement, they are heard by the Mirzo-Ulugbek district court of Tashkent under the law of the Republic of Uzbekistan.
+8.4. Disputes are settled by negotiation. Failing agreement, they are heard by the competent court under the law of the Republic of Uzbekistan.
 
 8.5. This offer is published in Uzbek, Russian and English. If the texts differ, the Uzbek text prevails.
 

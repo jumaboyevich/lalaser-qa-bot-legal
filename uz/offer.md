@@ -112,7 +112,7 @@
 
 8.3. Ijrochi ofertani o'zgartirishi mumkin. Yangi tahrir e'lon qilingan kundan kuchga kiradi. Muhim o'zgarishlarda Bot Buyurtmachidan qayta rozilik so'raydi.
 
-8.4. Nizolar muzokaralar yo'li bilan hal qilinadi. Kelishuvga erishilmasa, nizo O'zbekiston Respublikasi qonunchiligiga muvofiq Mirzo-Ulug'bek tumani sudida ko'rib chiqiladi.
+8.4. Nizolar muzokaralar yo'li bilan hal qilinadi. Kelishuvga erishilmasa, nizo O'zbekiston Respublikasi qonunchiligiga muvofiq vakolatli sudda ko'rib chiqiladi.
 
 8.5. Oferta o'zbek, rus va ingliz tillarida e'lon qilinadi. Matnlar o'rtasida farq bo'lsa, o'zbek tilidagi matn ustun turadi.
 
