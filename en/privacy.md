@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Privacy Policy
 
-**Edition:** 1.1 · **Effective date:** 13.10.2026
+**Edition:** 1.2 · **Effective date:** 15.10.2026
 
 [O'zbekcha](../uz/privacy.md) · [Русский](../ru/privacy.md)
 
@@ -24,10 +24,10 @@
 | Employees | Full name, role, analysis scores | Studio employees |
 | Audio recordings | Conversation recording (voice and what is said in it) | Employee and studio client |
 | Analysis results | Score, written report, client's name (if mentioned) | Employee and client |
-| Payments | Amount, date, receipt image, balance movements | Manager / studio |
+| Payments | Amount, date, balance movements; for card transfers — receipt image; for Rahmat payments — payment link, payment method and time, fiscal receipt link | Manager / studio |
 | Technical logs | Request ID, time, file size, errors | Manager |
 
-2.1. The Provider **does not ask for or store** passport data, bank card numbers or CVV codes. Once a payment system is connected, card data is processed only by the payment provider.
+2.1. The Provider **does not ask for or store** passport data, bank card numbers or CVV codes. Card or payment-app details are entered on the page of the Rahmat payment service and processed only on its side; the Provider does not receive them.
 
 2.2. Audio recordings may contain health information (for example skin type, conditions, medication). Such information is used only for the purposes in section 3.
 
@@ -72,7 +72,7 @@ To provide the Service, data is shared only with the following providers and onl
 | Telegram | Messaging through the bot | Messages, files |
 | Google (Gemini API, paid tier) | AI analysis of audio | Audio recording, analysis rules |
 | Railway (cloud hosting) | Hosting the bot and the database | Data in section 2 (except audio) |
-| Payment provider (once connected) | Accepting payments | Amount, payment ID |
+| Rahmat (payment service, Uzbekistan) | Accepting online payments and issuing fiscal receipts | Amount and payment link; the payer enters payment details on the Rahmat page themselves |
 
 5.1. An audio file sent for analysis is deleted from Google's servers as soon as the analysis ends. The Provider uses Google's paid API tier, under whose terms Google does not use submitted data to train its models.
 

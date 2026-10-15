@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Ommaviy oferta
 
-**Tahrir:** 1.2 · **Kuchga kirgan sana:** 13.10.2026
+**Tahrir:** 1.3 · **Kuchga kirgan sana:** 15.10.2026
 
 [Русский](../ru/offer.md) · [English](../en/offer.md)
 
@@ -68,11 +68,11 @@ Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to
 
 ## 5. To'lov va balans
 
-5.1. To'lov 100% oldindan, Botda ko'rsatilgan Ijrochining bank kartasiga o'tkazma yoki Botga ulangan to'lov tizimi orqali amalga oshiriladi.
+5.1. To'lov 100% oldindan, Rahmat to'lov xizmati orqali (Payme, Click, Uzum, Paynet yoki bank kartasi) yoki Botda ko'rsatilgan Ijrochining bank kartasiga o'tkazma orqali amalga oshiriladi.
 
-5.2. Qo'lda to'lovda Buyurtmachi Botga to'lov chekini yuboradi. Ijrochi to'lovni 1 ish kuni ichida tekshiradi va paketni balansga qo'shadi.
+5.2. Rahmat orqali to'lashda Buyurtmachi Botda tanlangan paketni to'lash uchun shaxsiy havola oladi. Uni 2 soat ichida to'lash kerak, shundan so'ng Botdan yangi havola so'rash lozim. To'lov xizmati to'lovni tasdiqlagach, paket balansga avtomatik qo'shiladi. Kartaga o'tkazmada Buyurtmachi Botga to'lov chekini yuboradi; Ijrochi to'lovni 1 ish kuni ichida tekshiradi va paketni balansga qo'shadi.
 
-5.3. Har bir to'lov uchun Ijrochi soliq qonunchiligiga muvofiq elektron chek beradi.
+5.3. Har bir to'lov uchun Ijrochi soliq qonunchiligiga muvofiq elektron chek beradi. Rahmat orqali to'lovda fiskal chekni to'lov xizmati shakllantiradi, unga havola Botga yuboriladi.
 
 5.4. Tahlil boshlanganda balansdan 1 ta tahlil (60 daqiqadan uzun audio uchun 2 ta) bron qilinadi va tahlil muvaffaqiyatli tugaganda yechiladi. **Texnik xato sababli tahlil bajarilmasa, bron avtomatik qaytariladi.**
 

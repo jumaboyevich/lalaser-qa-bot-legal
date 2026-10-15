@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Maxfiylik siyosati
 
-**Tahrir:** 1.1 · **Kuchga kirgan sana:** 13.10.2026
+**Tahrir:** 1.2 · **Kuchga kirgan sana:** 15.10.2026
 
 [Русский](../ru/privacy.md) · [English](../en/privacy.md)
 
@@ -24,10 +24,10 @@
 | Xodimlar | Ism-familiya, lavozim, tahlil ballari | Studiya xodimlari |
 | Audio yozuvlar | Suhbat yozuvi (ovoz va unda aytilgan ma'lumotlar) | Xodim va studiya mijozi |
 | Tahlil natijalari | Baho, matnli hisobot, mijoz ismi (suhbatda aytilsa) | Xodim va mijoz |
-| To'lovlar | Summa, sana, chek surati, balans harakati | Menejer / studiya |
+| To'lovlar | Summa, sana, balans harakati; kartaga o'tkazmada — chek surati; Rahmat orqali to'lovda — to'lov havolasi, to'lov usuli va vaqti, fiskal chek havolasi | Menejer / studiya |
 | Texnik jurnallar | So'rov ID, vaqt, fayl hajmi, xatolar | Menejer |
 
-2.1. Ijrochi pasport ma'lumotlari, bank kartasi raqami va CVV kodini **so'ramaydi va saqlamaydi**. To'lov tizimi ulanganda karta ma'lumotlari faqat to'lov provayderi tomonida qayta ishlanadi.
+2.1. Ijrochi pasport ma'lumotlari, bank kartasi raqami va CVV kodini **so'ramaydi va saqlamaydi**. Karta yoki to'lov ilovasi ma'lumotlari Rahmat to'lov xizmati sahifasida kiritiladi va faqat uning tomonida qayta ishlanadi; Ijrochi ularni olmaydi.
 
 2.2. Audio yozuvlarda sog'liq holati to'g'risidagi ma'lumotlar (masalan, teri turi, kasalliklar, dori-darmonlar) uchrashi mumkin. Bunday ma'lumotlar faqat 3-bo'limdagi maqsadlarda ishlatiladi.
 
@@ -72,7 +72,7 @@ Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, f
 | Telegram | Bot orqali xabar almashish | Xabarlar, fayllar |
 | Google (Gemini API, pullik tarif) | Audioni sun'iy intellekt yordamida tahlil qilish | Audio yozuv, tahlil qoidalari |
 | Railway (bulutli hosting) | Bot va ma'lumotlar bazasini joylashtirish | 2-bo'limdagi ma'lumotlar (audiodan tashqari) |
-| To'lov provayderi (ulanganda) | To'lovlarni qabul qilish | Summa, to'lov ID |
+| Rahmat (to'lov xizmati, O'zbekiston) | Onlayn to'lovlarni qabul qilish va fiskal chek berish | Summa va to'lov havolasi; to'lov ma'lumotlarini to'lovchi Rahmat sahifasida o'zi kiritadi |
 
 5.1. Tahlil uchun yuborilgan audio fayl tahlil tugashi bilan Google serveridan o'chiriladi. Ijrochi Google'ning pullik API tarifidan foydalanadi; bu tarif shartlariga ko'ra Google yuborilgan ma'lumotlardan o'z modellarini o'qitish uchun foydalanmaydi.
 
