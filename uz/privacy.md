@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Maxfiylik siyosati
 
-**Tahrir:** 1.2 · **Kuchga kirgan sana:** 15.10.2026
+**Tahrir:** 1.3 · **Kuchga kirgan sana:** 27.10.2026
 
 [Русский](../ru/privacy.md) · [English](../en/privacy.md)
 
@@ -23,7 +23,8 @@
 | Studiya va filiallar | Studiya va filial nomlari, ulangan guruh ID'lari | Menejer / studiya |
 | Xodimlar | Ism-familiya, lavozim, tahlil ballari | Studiya xodimlari |
 | Audio yozuvlar | Suhbat yozuvi (ovoz va unda aytilgan ma'lumotlar) | Xodim va studiya mijozi |
-| Tahlil natijalari | Baho, matnli hisobot, mijoz ismi (suhbatda aytilsa) | Xodim va mijoz |
+| Audio havolasi | Faylning Telegram'dagi identifikatori (faylning o'zi emas), tahlil vaqti | Xodim va studiya mijozi |
+| Tahlil natijalari | Baho, matnli hisobot, suhbatning to'liq matni (so'ralganda), mijoz ismi (suhbatda aytilsa) | Xodim va mijoz |
 | To'lovlar | Summa, sana, balans harakati; kartaga o'tkazmada — chek surati; Rahmat orqali to'lovda — to'lov havolasi, to'lov usuli va vaqti, fiskal chek havolasi | Menejer / studiya |
 | Texnik jurnallar | So'rov ID, vaqt, fayl hajmi, xatolar | Menejer |
 
@@ -35,7 +36,8 @@
 
 Ma'lumotlarga faqat quyidagi maqsadlarda ishlov beriladi:
 
-- xodim va mijoz o'rtasidagi suhbatni studiya standartlari asosida tahlil qilish va hisobot tayyorlash;
+- xodim va mijoz o'rtasidagi suhbatni studiya standartlari asosida tahlil qilish, hisobot va so'ralganda suhbatning to'liq matnini tayyorlash;
+- tahlil natijasiga e'tiroz bildirgan foydalanuvchilarning murojaatlarini ko'rib chiqish;
 - xodimlar reytingi va tahlillar tarixini studiya rahbariyatiga ko'rsatish;
 - akkaunt, filiallar, balans va to'lovlarni yuritish;
 - xizmat sifatini nazorat qilish, xatolarni aniqlash va xavfsizlikni ta'minlash;
@@ -63,6 +65,8 @@ Ma'lumotlarga faqat quyidagi maqsadlarda ishlov beriladi:
 
 4.6. Foydalanuvchi taklif bo'yicha yordam so'raganda, Ijrochi murojaatni hal qilish uchun taklif ma'lumotlarini (studiya, rol, filiallar, foydalanuvchi akkaunti) ko'radi.
 
+4.7. Foydalanuvchi tahlilga e'tiroz bildirsa (Botdagi «Tahlilga e'tiroz» tugmasi), Ijrochining administratori tahlildan keyin 7 kun ichida audio yozuvni Telegram'dagi havola orqali olib, eshitishi va qayta tahlil qilishi mumkin. Qayta tahlil faqat administratorga yuboriladi va tarixga saqlanmaydi; bunda audio yozuvning o'zi Ijrochida saqlanmaydi.
+
 ## 5. Uchinchi shaxslarga uzatish
 
 Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, faqat zarur hajmda uzatiladi:
@@ -74,7 +78,7 @@ Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, f
 | Railway (bulutli hosting) | Bot va ma'lumotlar bazasini joylashtirish | 2-bo'limdagi ma'lumotlar (audiodan tashqari) |
 | Rahmat (to'lov xizmati, O'zbekiston) | Onlayn to'lovlarni qabul qilish va fiskal chek berish | Summa va to'lov havolasi; to'lov ma'lumotlarini to'lovchi Rahmat sahifasida o'zi kiritadi |
 
-5.1. Tahlil uchun yuborilgan audio fayl tahlil tugashi bilan Google serveridan o'chiriladi. Ijrochi Google'ning pullik API tarifidan foydalanadi; bu tarif shartlariga ko'ra Google yuborilgan ma'lumotlardan o'z modellarini o'qitish uchun foydalanmaydi.
+5.1. Tahlil uchun yuborilgan audio fayl tahlil tugashi bilan Google serveridan o'chiriladi. Ijrochi Google'ning pullik API tarifidan foydalanadi; bu tarif shartlariga ko'ra Google yuborilgan ma'lumotlardan o'z modellarini o'qitish uchun foydalanmaydi. Bu murojaat bo'yicha qayta tahlilga ham taalluqli (4.7-band).
 
 5.2. Ma'lumotlar qonunda belgilangan hollarda vakolatli davlat organlarining so'roviga binoan berilishi mumkin.
 
@@ -84,7 +88,9 @@ Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, f
 
 | Ma'lumot | Qancha saqlanadi |
 | --- | --- |
-| Audio yozuv | Saqlanmaydi: tahlil tugashi bilan (muvaffaqiyatli yoki xato bilan) serverdan va Google'dan o'chiriladi |
+| Audio yozuv | Faylning o'zi Ijrochida saqlanmaydi: tahlil tugashi bilan (muvaffaqiyatli yoki xato bilan) serverdan va Google'dan o'chiriladi |
+| Telegram'dagi audio havolasi | Tahlildan keyin 7 kun — murojaatlarni ko'rib chiqish uchun (4.7-band), so'ng avtomatik o'chiriladi |
+| Suhbatning to'liq matni | Saqlanmaydi: faqat foydalanuvchiga Botda yuboriladi |
 | Tahlil hisobotlari, ballar, xodimlar ro'yxati | Akkaunt faol bo'lgan davrda; akkaunt o'chirilgach 30 kun ichida o'chiriladi |
 | Akkaunt, filiallar, sozlamalar | Akkaunt o'chirilguncha |
 | To'lovlar va balans tarixi | Soliq qonunchiligida belgilangan muddat davomida |
@@ -98,7 +104,7 @@ Xizmatni ko'rsatish uchun ma'lumotlar faqat quyidagi xizmat ko'rsatuvchilarga, f
 - ma'lumotlar bazasiga faqat Ijrochi kira oladi;
 - ma'lumotlar shifrlangan kanallar (HTTPS/TLS) orqali uzatiladi;
 - foydalanuvchilarga xato tafsilotlari ko'rsatilmaydi, faqat murojaat ID'si beriladi;
-- audio fayllar vaqtincha saqlanadi va tahlildan keyin darhol o'chiriladi.
+- audio fayllar vaqtincha saqlanadi va tahlildan keyin darhol o'chiriladi; Telegram'dagi audio havolasi 7 kundan keyin o'chiriladi va u orqali audioni faqat Ijrochining administratori olishi mumkin.
 
 ## 8. Foydalanuvchi huquqlari
 

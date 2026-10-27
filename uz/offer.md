@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Ommaviy oferta
 
-**Tahrir:** 1.3 · **Kuchga kirgan sana:** 15.10.2026
+**Tahrir:** 1.4 · **Kuchga kirgan sana:** 27.10.2026
 
 [Русский](../ru/offer.md) · [English](../en/offer.md)
 
@@ -10,7 +10,7 @@
 - **Buyurtmachi** — ofertani qabul qilgan yuridik shaxs, yakka tartibdagi tadbirkor yoki ularning vakili (studiya menejeri).
 - **Bot** — Telegram'dagi @lalaser_qa_bot boti.
 - **Xizmat** — audio yozib olingan suhbatlarni sun'iy intellekt yordamida tahlil qilish va hisobot tayyorlash.
-- **Tahlil** — Xizmatning hisob birligi: davomiyligi 60 daqiqagacha bo'lgan bitta audio yozuvni tahlil qilish. 60 daqiqadan uzun yozuv 2 ta tahlil hisoblanadi.
+- **Tahlil** — Xizmatning hisob birligi: davomiyligi 60 daqiqagacha bo'lgan bitta audio yozuvni tahlil qilish. 60 daqiqadan uzun yozuv 2 ta tahlil hisoblanadi. Suhbatning to'liq matni tahlil kabi hisoblanadi; tahlil va to'liq matn birga — ikki baravar (masalan, 60 daqiqadan uzun yozuv uchun 4 ta tahlil).
 - **Paket** — oldindan to'lanadigan, belgilangan miqdordagi tahlillar to'plami.
 - **Balans** — Buyurtmachi akkauntidagi ishlatilmagan tahlillar qoldig'i.
 - **Akkaunt** — Buyurtmachining Botdagi hisobi. Unga bitta yoki bir nechta filial bog'lanadi.
@@ -30,13 +30,15 @@
 
 ## 3. Xizmat tavsifi va cheklovlar
 
-3.1. Buyurtmachi Botga audio yozuv yuboradi va xodimni tanlaydi. Ijrochi yozuvni studiya standartlari asosida tahlil qiladi va Botda baho hamda matnli hisobot taqdim etadi. Buyurtmachi xohlasa, hisobot ulangan Telegram guruhiga ham yuboriladi.
+3.1. Buyurtmachi Botga audio yozuv yuboradi va natijani (tahlil, suhbatning to'liq matni yoki ikkalasi), natija tilini va xodimni tanlaydi. Ijrochi yozuvni studiya standartlari asosida tahlil qiladi va Botda baho hamda matnli hisobotni va (yoki) suhbatning to'liq matnini taqdim etadi. Buyurtmachi xohlasa, hisobot ulangan Telegram guruhiga ham yuboriladi; to'liq matn faqat Buyurtmachiga yuboriladi.
 
 3.2. Tahlil sun'iy intellekt tomonidan avtomatik tayyorlanadi va **tavsiyaviy xususiyatga ega**. Unda noaniqliklar bo'lishi mumkin. Xodimlarga nisbatan qaror (rag'batlantirish, jazo, ishdan bo'shatish) qabul qilishda faqat hisobotga tayanmaslik tavsiya etiladi.
 
 3.3. Tahlil sifati audio sifatiga bog'liq: shovqin, past ovoz yoki bir nechta suhbatning aralashib ketishi natijani yomonlashtiradi.
 
 3.4. Ijrochi Xizmatning uzluksiz ishlashiga harakat qiladi. Biroq texnik ishlar yoki uchinchi shaxslar (Telegram, sun'iy intellekt provayderi, hosting) tomonidagi uzilishlar sababli vaqtinchalik to'xtashlar bo'lishi mumkin.
+
+3.5. Tahlildan keyin 7 kun ichida Buyurtmachi Botdagi «Tahlilga e'tiroz» tugmasi orqali uning natijasiga e'tiroz bildirishi mumkin. Ijrochi murojaatni ko'rib chiqadi: yozuvni eshitadi, kerak bo'lsa uni bepul qayta tahlil qiladi va Botda javob beradi. Murojaat bo'yicha qarorni, shu jumladan tahlillarni balansga qaytarish haqidagi qarorni Ijrochi qabul qiladi.
 
 ## 4. Narxlar, paketlar va bonuslar
 
@@ -74,7 +76,7 @@ Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to
 
 5.3. Har bir to'lov uchun Ijrochi soliq qonunchiligiga muvofiq elektron chek beradi. Rahmat orqali to'lovda fiskal chekni to'lov xizmati shakllantiradi, unga havola Botga yuboriladi.
 
-5.4. Tahlil boshlanganda balansdan 1 ta tahlil (60 daqiqadan uzun audio uchun 2 ta) bron qilinadi va tahlil muvaffaqiyatli tugaganda yechiladi. **Texnik xato sababli tahlil bajarilmasa, bron avtomatik qaytariladi.**
+5.4. Tahlil boshlanganda balansdan 1 ta tahlil (60 daqiqadan uzun audio uchun 2 ta; tahlil va to'liq matn birga bo'lsa — ikki baravar) bron qilinadi va tahlil muvaffaqiyatli tugaganda yechiladi. **Texnik xato sababli tahlil bajarilmasa, bron avtomatik qaytariladi.**
 
 5.5. Bir akkauntning balansi uning barcha filiallari va jamoa a'zolari uchun umumiy.
 
@@ -116,7 +118,7 @@ Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to
 
 - to'langan tahlillarni ofertada belgilangan tartibda bajaradi;
 - ma'lumotlarga Maxfiylik siyosatiga muvofiq ishlov beradi va ularni boshqa studiyalarga ko'rsatmaydi;
-- audio yozuvlarni tahlildan keyin o'chiradi.
+- audio yozuvlarni tahlildan keyin o'chiradi; Telegram'dagi audio havolasini murojaatlarni ko'rib chiqish uchun 7 kun saqlaydi (3.5-band).
 
 **Ijrochining huquqi:** shartlar buzilganda, jumladan rozilik olinmagan yoki noqonuniy yozuvlar yuborilganda, akkauntni ogohlantirishsiz to'xtatib qo'yish.
 

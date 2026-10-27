@@ -1,6 +1,6 @@
 # LaLaser QA Bot — Privacy Policy
 
-**Edition:** 1.2 · **Effective date:** 15.10.2026
+**Edition:** 1.3 · **Effective date:** 27.10.2026
 
 [O'zbekcha](../uz/privacy.md) · [Русский](../ru/privacy.md)
 
@@ -23,7 +23,8 @@
 | Studio and branches | Studio and branch names, IDs of linked groups | Manager / studio |
 | Employees | Full name, role, analysis scores | Studio employees |
 | Audio recordings | Conversation recording (voice and what is said in it) | Employee and studio client |
-| Analysis results | Score, written report, client's name (if mentioned) | Employee and client |
+| Audio link | The file's identifier in Telegram (not the file itself), time of the analysis | Employee and studio client |
+| Analysis results | Score, written report, full text of the conversation (on request), client's name (if mentioned) | Employee and client |
 | Payments | Amount, date, balance movements; for card transfers — receipt image; for Rahmat payments — payment link, payment method and time, fiscal receipt link | Manager / studio |
 | Technical logs | Request ID, time, file size, errors | Manager |
 
@@ -35,7 +36,8 @@
 
 Data is processed only to:
 
-- analyse conversations between employees and clients against the studio's standards and prepare reports;
+- analyse conversations between employees and clients against the studio's standards, prepare reports and, on request, the full text of the conversation;
+- handle appeals of users who dispute an analysis result;
 - show the studio's management employee ratings and analysis history;
 - run accounts, branches, balances and payments;
 - monitor service quality, find errors and keep the Service secure;
@@ -63,6 +65,8 @@ Data is processed only to:
 
 4.6. When a user asks for help with an invitation, the Provider sees the invitation details (studio, role, branches, the user's account) to resolve the request.
 
+4.7. If a user disputes an analysis (the «Dispute the analysis» button in the Bot), the Provider's administrator may, within 7 days after the analysis, get the audio recording through its Telegram link, listen to it and analyse it again. The repeated analysis is sent only to the administrator and is not saved to the history; the audio recording itself is not stored by the Provider.
+
 ## 5. Sharing with third parties
 
 To provide the Service, data is shared only with the following providers and only as far as necessary:
@@ -74,7 +78,7 @@ To provide the Service, data is shared only with the following providers and onl
 | Railway (cloud hosting) | Hosting the bot and the database | Data in section 2 (except audio) |
 | Rahmat (payment service, Uzbekistan) | Accepting online payments and issuing fiscal receipts | Amount and payment link; the payer enters payment details on the Rahmat page themselves |
 
-5.1. An audio file sent for analysis is deleted from Google's servers as soon as the analysis ends. The Provider uses Google's paid API tier, under whose terms Google does not use submitted data to train its models.
+5.1. An audio file sent for analysis is deleted from Google's servers as soon as the analysis ends. The Provider uses Google's paid API tier, under whose terms Google does not use submitted data to train its models. This also applies to a repeated analysis on appeal (clause 4.7).
 
 5.2. Data may be disclosed to competent public authorities on request where the law requires.
 
@@ -84,7 +88,9 @@ To provide the Service, data is shared only with the following providers and onl
 
 | Data | Retention |
 | --- | --- |
-| Audio recording | Not stored: deleted from the server and from Google right after the analysis (successful or failed) |
+| Audio recording | The file itself is not stored by the Provider: deleted from the server and from Google right after the analysis (successful or failed) |
+| Audio link in Telegram | 7 days after the analysis, to handle appeals (clause 4.7), then deleted automatically |
+| Full text of the conversation | Not stored: only sent to the user in the Bot |
 | Reports, scores, employee list | While the account is active; deleted within 30 days after the account is deleted |
 | Account, branches, settings | Until the account is deleted |
 | Payment and balance history | For the period required by tax law |
@@ -98,7 +104,7 @@ To provide the Service, data is shared only with the following providers and onl
 - only the Provider has access to the database;
 - data is transferred over encrypted channels (HTTPS/TLS);
 - users are never shown error details, only a request ID;
-- audio files are stored temporarily and deleted right after analysis.
+- audio files are stored temporarily and deleted right after analysis; the Telegram link to the audio is deleted after 7 days, and only the Provider's administrator can get the audio through it.
 
 ## 8. User rights
 
