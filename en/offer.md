@@ -88,7 +88,7 @@ The special offer applies to packages whose payment instructions were received i
 
 6.1. An Account may have one or more Owners and managers. An Owner runs all branches, the balance, payments and the team. A manager works only in the branches assigned to them: sends audio, manages employees, sees ratings and reports, and may top up the shared balance.
 
-6.2. A branch has one manager; one manager may run several branches.
+6.2. An Owner may assign a manager one, several or all branches and change this at any time; a branch may have several managers.
 
 6.3. There is no separate charge for team members. All analyses are taken from the Account's shared balance.
 

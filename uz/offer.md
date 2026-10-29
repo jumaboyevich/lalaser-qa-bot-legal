@@ -88,7 +88,7 @@ Maxsus taklif 2026-yil 31-oktabr kuni soat 23:59 gacha (Toshkent vaqti) Botda to
 
 6.1. Akkauntda bir yoki bir nechta Ega va menejerlar bo'lishi mumkin. Ega barcha filiallarni, balans va to'lovlarni hamda jamoani boshqaradi. Menejer faqat o'ziga biriktirilgan filiallarda ishlaydi: audio yuboradi, xodimlarni boshqaradi, reyting va hisobotlarni ko'radi hamda umumiy balansni to'ldirishi mumkin.
 
-6.2. Bitta filialda bitta menejer bo'ladi; bitta menejer bir nechta filialni boshqarishi mumkin.
+6.2. Ega menejerga bitta, bir nechta yoki barcha filiallarni biriktirishi va istalgan vaqtda o'zgartirishi mumkin; bitta filialda bir nechta menejer bo'lishi mumkin.
 
 6.3. Jamoa a'zolari uchun alohida to'lov olinmaydi. Barcha tahlillar Akkauntning umumiy balansidan yechiladi.
 
